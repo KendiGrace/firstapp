@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".story1">
+
+    <TextView
+        android:id="@+id/chap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Chapter One"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1A"
+        android:layout_width="380dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="20dp"
+        android:text="Growing up,my parents would never allow me to go out unless they had sent me to the shopping center.I once attended a classmate's birthday party and that i received the beating of my life. My dad asked my mum not to give me  food to serve as a punishment. I grew up as a good church going girl who would not even talk to any boy or any male species in the village. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chap1" />
+
+    <TextView
+        android:id="@+id/TV1B"
+        android:layout_width="378dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:text="My peers laughed at the fact that my parents were so strict to me and that I could not go to parties they used to attend on weekends and the hikes they went to. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1A" />
+
+    <TextView
+        android:id="@+id/TV1C"
+        android:layout_width="383dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="20dp"
+        android:text="They would advise me to jump over the fence to go out with them but since i didn't want to put myself into trouble and risk sleeping hungry.I always gave them excuses of how busy i was at home and that i had many assignments. I was a bright student and everyday i would tell myself how happy i would be if i ever got the chance to study in a good university. After years and months of struggle in highschool,I sat for my final exams in November 2014 .I believed that there is God and that he would never let me fail in my exams. After weeks of waiting, the results came out,I had passed, I had gotten the freedom I needed. "
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TV1B" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#FDF6F6"
+        android:text="Previous"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#F4F1F1"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

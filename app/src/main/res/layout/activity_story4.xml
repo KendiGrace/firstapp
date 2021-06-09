@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sty4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".story4">
+
+    <TextView
+        android:id="@+id/chap4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Chapter Four"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4A"
+        android:layout_width="394dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="16dp"
+        android:text="Life in campus was cool,i loved my classes and the trainers but i found it hard to make friends since many girls around campus were not living according to my morals.Don was my friend,my best friend.Everytime i saw him hag around with other students,i woul feel left out,i would get angry for nothing.I was a toxic friend.I had gotten attached.I wanted to be around him all the time,he made me happy.He would take me for picnics and we would be talking and laughing the whole time.Life was great.
+"
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chap4" />
+
+    <TextView
+        android:id="@+id/tv4B"
+        android:layout_width="391dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="8dp"
+        android:text="It came to a point where I would go over to Don's for lunch and he would come to my house for lunch and viceversa.One Friday evening,he came over for dinner,he brought my favorite food and we ate to our fill.We didn't even realise it was getting late and he lived far from my house.Lately so many killings were happening around campus at the footbridge where he was supposed to pass to his house. I was worried he woul get hurt so i asked him to spend the night."
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4A" />
+
+    <TextView
+        android:id="@+id/tv4C"
+        android:layout_width="380dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
+        android:text="Students around campus were living a simple life and i was not an exceptipn.I had a tiny crib,with no bed,no couch.I just had a nice comfy mattress ,a gas cooker and some utensils.We decided to watch movies on his laptop since we were both feeling uneasy around each other,alone in a house away from home,on the same bed."
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4B" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Previous"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sty3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37DD19"
+    tools:context=".story3">
+
+    <TextView
+        android:id="@+id/chap3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Chapter Three"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3A"
+        android:layout_width="391dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="12dp"
+        android:text="On Wednesday that week,my dad called me the living room and said that he wanted to have a serious talk with me.He sound worried and i could tell that something was disturbing him.He told me to pick te brown envelope on top of the table and open it. I was shocked to find out that i had passed in my final exams and that i had been enrolled in a university in the city to study a Bachelor's degree in Communication and media studies.I was happy.Finally i could go away from home without anyone controlling me and telling me what to doMy dad was not that happy. I tried asking him what was wrong and to my surprise ,he didn't want me to go away from home.He wanted me to study at university around my home town so that i would not have to rent a place of my own.
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chap3" />
+
+    <TextView
+        android:id="@+id/tv3B"
+        android:layout_width="382dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="8dp"
+        android:text="My mum wasn't that happy but she said she's gonna let me go so that could go chase my dreams.She talked my father througt it and finally,he agreed.That was the happiest moment of my life.Later in the day, I met Don,my old classmate and shared the news with him.Little did i know that he had been admitted to the same university as me.It was a beautiful moment,i was happy i wasn't going to be alone in a far away city."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3A" />
+
+    <TextView
+        android:id="@+id/tv3C"
+        android:layout_width="373dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:text="Days went on very fast and i was finally on campus,with all the freedom in the world with only one friend,Don.
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3B" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Previous"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Next"
+        android:textColor="#090909"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toEndOf="@+id/btn6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

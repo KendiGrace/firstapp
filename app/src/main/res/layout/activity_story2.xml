@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:backgroundTint="#F49393"
+    tools:context=".story2">
+
+    <TextView
+        android:id="@+id/chap2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Chapter Two"
+        android:textColor="#FDFDFC"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2A"
+        android:layout_width="373dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        android:text="Being so free,away from the school rules and and many assignments hit different.I loved the fact that i could watch TV all night without my parents complaining. I would send my nights on the couch watching.I would enjoy all the movies i had gotten inside my friend's flashdisk
+
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chap2" />
+
+    <TextView
+        android:id="@+id/tv2B"
+        android:layout_width="383dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="12dp"
+        android:text="One Sunday afternoon as i was coming home from church,i met an old classmate.He was my deskmate back in primary school and when we went to highschool,we lost contact.He had grown to a very tall,dar and handsome young man.I was shocked to see him looking all classy and social.Back in school,he was a conserved boy,one who always kept quite in class and he was from a poor background.Nevertheless,he perfomed wonders in the final exams and he was sponsored to study in one of the biggest schools in the country. That i did not know until the day we met.
+"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2A" />
+
+    <TextView
+        android:id="@+id/tv2C"
+        android:layout_width="377dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="8dp"
+        android:text="We talked for around an hour and we agreed to keep in touch. I did not have a phone by then so i decided to invite him to our church the next sunday.We said our goodbyes and everyone left to their homes.I was feeling excited that day and started reminiscing about all the good times when we back in primary school.
+
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2B" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FFFDFD"
+        android:text="Next"
+        android:textColor="#0E0E0E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#FBFAFA"
+        android:text="Previous"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
